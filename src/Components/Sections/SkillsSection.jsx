@@ -14,7 +14,7 @@ class SkillsSection extends React.Component {
             <div className={classes.aboutHeading}>TECHNOLOGIES</div>
             <div className={classes.buttons}>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -22,16 +22,40 @@ class SkillsSection extends React.Component {
                 NODE
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
               >
                 REACT
               </Button>
+              <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                REDUX
+              </Button>
+              <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                REACT HOOKS
+              </Button>
+              <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                MONGO DB
+              </Button>
 
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -40,7 +64,7 @@ class SkillsSection extends React.Component {
               </Button>
 
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -48,7 +72,7 @@ class SkillsSection extends React.Component {
                 jQuery
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 color="primary"
                 className={classes.navLink}
                 target="_blank"
@@ -57,7 +81,7 @@ class SkillsSection extends React.Component {
               </Button>
 
               <Button
-          size="lg"
+                size="lg"
                 color="primary"
                 target="_blank"
                 className={classes.navLink}
@@ -65,7 +89,7 @@ class SkillsSection extends React.Component {
                 CSS
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 color="primary"
                 target="_blank"
                 className={classes.navLink}
@@ -73,7 +97,7 @@ class SkillsSection extends React.Component {
                 SQL Server
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -81,7 +105,7 @@ class SkillsSection extends React.Component {
                 AJAX/AXIOS
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 color="primary"
                 className={classes.navLink}
                 target="_blank"
@@ -89,7 +113,7 @@ class SkillsSection extends React.Component {
                 Bootstrap
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -98,7 +122,7 @@ class SkillsSection extends React.Component {
               </Button>
 
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -106,7 +130,7 @@ class SkillsSection extends React.Component {
                 TFS{" "}
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -114,7 +138,7 @@ class SkillsSection extends React.Component {
                 Git
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -122,7 +146,7 @@ class SkillsSection extends React.Component {
                 AWS
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -130,7 +154,7 @@ class SkillsSection extends React.Component {
                 Express API
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
@@ -138,7 +162,7 @@ class SkillsSection extends React.Component {
                 Photoshop
               </Button>
               <Button
-          size="lg"
+                size="lg"
                 className={classes.navLink}
                 color="primary"
                 target="_blank"
