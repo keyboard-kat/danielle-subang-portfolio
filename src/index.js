@@ -6,14 +6,13 @@ import "assets/scss/material-kit-react.scss?v=1.4.0";
 import "bootstrap/dist/css/bootstrap.css";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import getMuiTheme from "material-ui/styles/getMuiTheme";
-// import store from "./Store";
-// import { Provider } from "react-redux";
+
 ReactDOM.render(
-  // <Provider store={store}>
+
   <MuiThemeProvider muiTheme={getMuiTheme()}>
     <App />
   </MuiThemeProvider>,
-  // </Provider>,
+
   document.getElementById("root")
 );
 
