@@ -10,10 +10,9 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
+
 import classNames from "classnames";
-import GridContainer from "_components/GridContainer.jsx";
-import GridItem from "_components/GridItem.jsx";
+
 import resume from "img/resume.jpg";
 import Button1 from "@material-ui/core/Button";
 function HeaderLinks({ ...props }) {
@@ -114,13 +113,11 @@ function HeaderLinks({ ...props }) {
           aria-labelledby="alert-dialog-title"
           aria-describedby="alert-dialog-description"
         >
-          <DialogTitle id="alert-dialog-title">{"Resume"}</DialogTitle>
-          <DialogContent>
-            <DialogContentText id="alert-dialog-description">
-              <GridContainer className={classes.container}>
-                <GridItem cs={12} sm={12} md={12}>
-                  <div className={classNames(classes.mainRaised)}>
-                    <img
+     
+          <DialogContent className={classes.container} cs={12} sm={12} md={12}>
+            <DialogContentText id="alert-dialog-description" className={classNames(classes.mainRaised)}>
+          
+                     <img
                       style={{
                         width: "100%",
                         height: "100%"
@@ -128,9 +125,9 @@ function HeaderLinks({ ...props }) {
                       alt="danielle subang resume"
                       src={resume}
                     />
-                  </div>
-                </GridItem>
-              </GridContainer>
+            
+           
+           
             </DialogContentText>
           </DialogContent>
           <DialogActions>

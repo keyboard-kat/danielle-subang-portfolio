@@ -45,6 +45,22 @@ class SkillsSection extends React.Component {
               >
                 REACT HOOKS
               </Button>
+                 <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                  VUEX
+              </Button>
+                  <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                  FIREBASE
+              </Button>
               <Button
                 size="lg"
                 className={classes.navLink}
