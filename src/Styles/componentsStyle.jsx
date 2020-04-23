@@ -33,9 +33,10 @@ const componentsStyle = {
 
   subHeading: {
     marginBottom: "50rem",
-    fontSize: "1.5rem",
+    fontSize: "1.2rem",
     marginTop: "0px",
     minHeight: "32px",
+    paddingBottom:  "20px",
     fontWeight: "500",
     color: "#FFFFFF",
     textAlign: "center",
