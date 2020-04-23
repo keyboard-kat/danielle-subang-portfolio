@@ -61,14 +61,7 @@ class SkillsSection extends React.Component {
               >
                   FIREBASE
               </Button>
-              <Button
-                size="lg"
-                className={classes.navLink}
-                color="primary"
-                target="_blank"
-              >
-                MONGO DB
-              </Button>
+          
 
               <Button
                 size="lg"
@@ -159,7 +152,23 @@ class SkillsSection extends React.Component {
                 color="primary"
                 target="_blank"
               >
-                AWS
+                PHP
+              </Button>
+              <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                Wordpress
+              </Button>
+              <Button
+                size="lg"
+                className={classes.navLink}
+                color="primary"
+                target="_blank"
+              >
+                Nextjs
               </Button>
               <Button
                 size="lg"
