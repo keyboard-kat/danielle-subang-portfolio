@@ -103,7 +103,7 @@ function HeaderLinks({ ...props }) {
           className={classes.navLink}
         >
           {" "}
-          VIEW MY RESUME
+          VIEW RESUME
         </Button>
         <Dialog
           fullScreen={fullScreen}
