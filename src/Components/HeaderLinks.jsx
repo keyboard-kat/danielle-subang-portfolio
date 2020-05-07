@@ -40,7 +40,8 @@ function HeaderLinks({ ...props }) {
           <Button
             color="transparent"
             href="https://github.com/sansNoms"
-            target="_blank"
+          target="_blank"
+          size="small" 
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-github"} />
@@ -52,7 +53,8 @@ function HeaderLinks({ ...props }) {
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
-          <Button
+        <Button
+          size="small" 
             color="transparent"
             href="https://www.linkedin.com/in/danielle-subang-a4b285119/"
             target="_blank"
@@ -67,7 +69,8 @@ function HeaderLinks({ ...props }) {
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
-          <Button
+        <Button
+          size="small" 
             href="mailto:daniellesubang@gmail.com"
             color="transparent"
             target="_blank"
@@ -84,7 +87,8 @@ function HeaderLinks({ ...props }) {
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
-          <Button
+        <Button
+          size="small" 
             color="transparent"
             href="https://www.instagram.com/daniellesubang"
             target="_blank"
@@ -95,7 +99,8 @@ function HeaderLinks({ ...props }) {
         </Tooltip>
 
     
-        <Button
+      <Button
+        size="small" 
           color="transparent"
           onClick={handleClickOpen}
           className={classes.navLink}
@@ -129,7 +134,7 @@ function HeaderLinks({ ...props }) {
             </DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button1 onClick={handleClose} color="primary">
+            <Button1 size="small"  onClick={handleClose} color="primary">
               Close
             </Button1>
           </DialogActions>
