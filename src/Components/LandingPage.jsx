@@ -50,13 +50,17 @@ class LandingPage extends React.Component {
         </div>
         <TopSection />
         <GridContainer className={classes.mainRaised}>
+
+          
           <GridItem cs={12} xs={12} md={12}>
             <AboutSection />
             <SkillsSection />
+<ContactSection />
+
+              </GridItem>
         
-          </GridItem>
         </GridContainer>
-        <ContactSection />
+    
       </>
     );
   }

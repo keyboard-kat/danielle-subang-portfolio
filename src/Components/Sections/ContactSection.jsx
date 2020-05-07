@@ -18,11 +18,13 @@ class ContactSection extends React.Component {
 
     return (
       <div
-        style={{ marginTop: "300px", marginBottom: "200px" }}
+        style={{
+          marginTop: "250px", marginBottom: "50px",
+          background: "blueviolet"
+        }}
         className={classes.contactContainer}
       >
-        <GridContainer>
-          <GridItem cs={12} xs={12} md={12}>
+      
             <div className={classes.profile}>
               {" "}
               <img
@@ -30,24 +32,20 @@ class ContactSection extends React.Component {
                 alt="Danielle Subang"
                 className={imageClasses}
               />{" "}
-          
-              <div className={classes.description} style={{margin: "auto"}}>
-              <GridItem cs={12} xs={12} md={12}>
-              <p>
-                I'm a full stack web application developer in Los Angeles experienced in Agile/Scrum Methodologies, 
-                React, Node, Vue, PHP, SQL and Firebase. I value intuitive design and scalable software architecture.
-              </p>
-              <br />
-</GridItem>
-         
-  
-            <GridItem cs={12} xs={12} md={12} style={{paddingLeft: "35px"}}>
             <HeaderLinks />
-            </GridItem>
+              <div className={classes.description} style={{margin: "auto", fontSize: "1.3em", paddingTop: "20px"}}>
+        
+         
+                I'm a full stack web application developer in Los Angeles experienced in Agile/Scrum Methodologies, 
+                React, Node, Vue, PHP, SQL and Firebase. I value clean code, intuitive design and scalable software architecture.
+         
+              <br />         
+  
+          
+   
             </div>
-            </div>
-          </GridItem>
-        </GridContainer>
+            </div> 
+     
       </div>
     );
   }

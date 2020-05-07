@@ -33,7 +33,7 @@ const componentsStyle = {
 
   subHeading: {
     marginBottom: "50rem",
-    fontSize: "1.2rem",
+    fontSize: "1.5rem",
     marginTop: "0px",
     minHeight: "32px",
     paddingBottom:  "20px",
@@ -81,7 +81,7 @@ const componentsStyle = {
   profile: {
     textAlign: "center",
     "& img": {
-      maxWidth: "150px",
+      maxWidth: "170px",
       margin: "0 auto",
       transform: "translate3d(0, -50%, 0)"
     }
@@ -103,8 +103,10 @@ const componentsStyle = {
 
   contactText: { textAlign: "center", ...defaultFont, color: "#FFFFFF" },
   contactContainer: {
-    maxWidth: "500px",
+    maxWidth: "550px",
     margin: "auto",
+ 
+    paddingBottom: "50px",
     ...defaultFont,
     color: "#FFFFFF"
   },
@@ -137,19 +139,19 @@ const componentsStyle = {
   },
   aboutHeading: {
     textAlign: "left",
-    fontSize: "2.7rem",
+    fontSize: "2rem",
     ...defaultFont,
     color: "#FFFFFF"
   },
   aboutText: {
-    fontSize: "2rem",
+    fontSize: "1.5rem",
     ...defaultFont,
     color: "#FFFFFF",
     marginLeft: "10px"
   },
 
   skillsHeading: {
-    fontSize: "2.7rem",
+    fontSize: "2rem",
     ...defaultFont,
     color: "#FFFFFF"
   }

@@ -16,7 +16,7 @@ class AboutSection extends React.Component {
           <GridItem cs={12} xs={12} md={12}>
             <div className={classes.aboutText}>
               <div className={classes.aboutHeading}>SKILLS</div>
-              <div style={{ marginLeft: "5px" }}>
+              <div style={{ marginLeft: "5px", marginTop: "15px" }}>
                 Deploying and optimizing client-side solutions that users love
                 with React-Redux and Vuex.</div>
                 <div style={{ marginLeft: "5px", paddingTop: "20px", paddingBottom: "50px" }}>

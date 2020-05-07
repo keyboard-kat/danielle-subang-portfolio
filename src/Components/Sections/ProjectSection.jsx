@@ -11,10 +11,10 @@ class ProjectSection extends React.Component {
     return (
       <>
         <GridContainer className={classes.aboutSection}>
-          <GridItem cs={12} xs={12} md={12}>
+          <GridItem cs={10} xs={12} md={10}>
             <div className={classes.aboutText}>
               <div className={classes.aboutHeading}>PROJECTS</div>
-              <div style={{ marginLeft: "5px" }}>
+              <div style={{ marginLeft: "5px", margin: "20px" }}>
                 Deploying and optimizing client-side solutions that users love
                 with React-Redux.
                 <br /> Developing scalable software architecture and designing
