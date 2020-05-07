@@ -19,7 +19,7 @@ class AboutSection extends React.Component {
               <div style={{ marginLeft: "5px" }}>
                 Deploying and optimizing client-side solutions that users love
                 with React-Redux and Vuex.</div>
-                <div style={{ marginLeft: "5px", paddingTop: "10px", paddingBottom: "20px" }}>
+                <div style={{ marginLeft: "5px", paddingTop: "20px", paddingBottom: "50px" }}>
                 Developing robust and scalable software architecture and designing
                 custom API's for database access layers using Node.{" "}
               </div>

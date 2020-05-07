@@ -41,7 +41,7 @@ function HeaderLinks({ ...props }) {
             color="transparent"
             href="https://github.com/sansNoms"
           target="_blank"
-          size="small" 
+          size="sm" 
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-github"} />
@@ -49,12 +49,12 @@ function HeaderLinks({ ...props }) {
         </Tooltip>
 
         <Tooltip
-          title="Connect with me on LinkedIn"
+          title="Find me on LinkedIn"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
         <Button
-          size="small" 
+          size="sm"  
             color="transparent"
             href="https://www.linkedin.com/in/danielle-subang-a4b285119/"
             target="_blank"
@@ -70,7 +70,7 @@ function HeaderLinks({ ...props }) {
           classes={{ tooltip: classes.tooltip }}
         >
         <Button
-          size="small" 
+          size="sm" 
             href="mailto:daniellesubang@gmail.com"
             color="transparent"
             target="_blank"
@@ -83,12 +83,12 @@ function HeaderLinks({ ...props }) {
      
         <Tooltip
           id="instagram-tooltip"
-          title="Follow me on instagram"
+          title="Follow me"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
         <Button
-          size="small" 
+          size="sm"  
             color="transparent"
             href="https://www.instagram.com/daniellesubang"
             target="_blank"
@@ -100,13 +100,13 @@ function HeaderLinks({ ...props }) {
 
     
       <Button
-        size="small" 
+        size="sm"  
           color="transparent"
           onClick={handleClickOpen}
           className={classes.navLink}
         >
           {" "}
-          RESUME
+         SEE MY RESUME
         </Button>
         <Dialog
           fullScreen={fullScreen}
@@ -134,7 +134,7 @@ function HeaderLinks({ ...props }) {
             </DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button1 size="small"  onClick={handleClose} color="primary">
+            <Button1 size="sm"  onClick={handleClose} color="primary">
               Close
             </Button1>
           </DialogActions>

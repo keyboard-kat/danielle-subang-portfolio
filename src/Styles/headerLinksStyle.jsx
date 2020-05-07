@@ -43,6 +43,7 @@ const headerLinksStyle = theme => ({
     fontWeight: "400",
     fontSize: "12px",
     textTransform: "uppercase",
+
     borderRadius: "3px",
     lineHeight: "20px",
     textDecoration: "none",
@@ -53,7 +54,7 @@ const headerLinksStyle = theme => ({
       background: "rgba(200, 200, 200, 0.2)"
     },
     [theme.breakpoints.down("sm")]: {
-      width: "calc(100% - 30px)",
+ 
       marginLeft: "15px",
       marginBottom: "8px",
       marginTop: "8px",

@@ -21,8 +21,8 @@ const componentsStyle = {
   },
 
   mainHeading: {
-    marginBottom: ".2rem",
-    fontSize: "5rem",
+    marginBottom: "1rem",
+    fontSize: "2.5rem",
     marginTop: "0px",
     minHeight: "32px",
     fontWeight: "500",
