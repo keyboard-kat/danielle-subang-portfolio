@@ -18,8 +18,9 @@ class AboutSection extends React.Component {
               <div className={classes.aboutHeading}>SKILLS</div>
               <div style={{ marginLeft: "5px" }}>
                 Deploying and optimizing client-side solutions that users love
-                with React-Redux.
-                <br /> Developing scalable software architecture and designing
+                with React-Redux and Vuex.</div>
+                <div style={{ marginLeft: "5px", paddingTop: "10px", paddingBottom: "20px" }}>
+                Developing robust and scalable software architecture and designing
                 custom API's for database access layers using Node.{" "}
               </div>
             </div>

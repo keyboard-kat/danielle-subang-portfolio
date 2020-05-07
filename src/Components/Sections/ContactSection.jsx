@@ -30,15 +30,12 @@ class ContactSection extends React.Component {
                 alt="Danielle Subang"
                 className={imageClasses}
               />{" "}
-              <div className={classes.name}>MY STORY</div>
+          
               <div className={classes.description} style={{margin: "auto"}}>
               <GridItem cs={12} xs={12} md={12}>
               <p>
-                I'm a full stack Node and React developer in Los Angeles. I
-                value intuitive design and scalable software architecture. My
-                passion is in writing clean code. Why I code? Because I love the
-                challenge and excitement it brings to the table. Want to get
-                connected? Reach out to me below.
+                I'm a full stack web application developer in Los Angeles experienced in Agile/Scrum Methodologies, 
+                React, Node, Vue, PHP, SQL and Firebase. I value intuitive design and scalable software architecture.
               </p>
               <br />
 </GridItem>

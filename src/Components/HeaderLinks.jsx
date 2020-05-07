@@ -31,7 +31,7 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       {" "}
-      <ListItem className={classes.listItem}>
+    
         <Tooltip
           title="View GitHub"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -46,8 +46,7 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-github"} />
           </Button>
         </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+
         <Tooltip
           title="Connect with me on LinkedIn"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -62,8 +61,7 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-linkedin"} />
           </Button>
         </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+   
         <Tooltip
           title="Send an email"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -78,8 +76,8 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fa fa-envelope"} />
           </Button>
         </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+     
+     
         <Tooltip
           id="instagram-tooltip"
           title="Follow me on instagram"
@@ -95,8 +93,8 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+
+    
         <Button
           color="transparent"
           onClick={handleClickOpen}
@@ -107,7 +105,7 @@ function HeaderLinks({ ...props }) {
         </Button>
         <Dialog
           fullScreen={fullScreen}
-          maxWidth={"lg"}
+          maxWidth={"sm"}
           open={open}
           onClose={handleClose}
           aria-labelledby="alert-dialog-title"
@@ -136,7 +134,7 @@ function HeaderLinks({ ...props }) {
             </Button1>
           </DialogActions>
         </Dialog>
-      </ListItem>
+
     </List>
   );
 }

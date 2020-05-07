@@ -15,7 +15,7 @@ class TopSection extends React.Component {
         <GridItem cs={12} xs={12} md={12}>
           <h1 className={classes.mainHeading}>Hi, I'm Danielle</h1>
           <div className={classes.subHeading}>
-            FULL STACK | REACT | VUE | NODE
+          SOFTWARE ENGINNER | REACT | VUE | NODE | PHP
           </div>
         </GridItem>
       </GridContainer>
