@@ -105,8 +105,7 @@ const componentsStyle = {
   contactContainer: {
     maxWidth: "550px",
     margin: "auto",
- 
-    paddingBottom: "50px",
+    paddingBottom: "100px",
     ...defaultFont,
     color: "#FFFFFF"
   },

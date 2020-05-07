@@ -32,8 +32,9 @@ class ContactSection extends React.Component {
                 alt="Danielle Subang"
                 className={imageClasses}
               />{" "}
-            <HeaderLinks />
-              <div className={classes.description} style={{margin: "auto", fontSize: "1.3em", paddingTop: "20px"}}>
+          <HeaderLinks />
+          \
+              <div className={classes.description} style={{margin: "auto", fontSize: "1.2em", paddingTop: "20px"}}>
         
          
                 I'm a full stack web application developer in Los Angeles experienced in Agile/Scrum Methodologies, 
