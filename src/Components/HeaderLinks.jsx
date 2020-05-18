@@ -39,7 +39,7 @@ function HeaderLinks({ ...props }) {
         >
           <Button
             color="transparent"
-            href="https://github.com/sansNoms"
+            href="https://github.com/keyboard-kat"
           target="_blank"
           size="sm" 
             className={classes.navLink}
